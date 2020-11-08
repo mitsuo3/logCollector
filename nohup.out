@@ -2,3 +2,18 @@ touch: cannot touch '/tmp/_log_/copy_complete': Not a directory
 touch: cannot touch '/tmp/_log_/copy_complete': Not a directory
 touch: cannot touch '/tmp/_log_/copy_complete': Not a directory
 touch: cannot touch '/tmp/_log_/copy_complete': Not a directory
+./20201109_log_manager/copy_complete
+./20201109_log_manager/lastlog
+./20201109_log_manager/wtmp
+./20201109_log_slave1/copy_complete
+./20201109_log_slave1/lastlog
+./20201109_log_slave1/wtmp
+./20201109_log_slave2/copy_complete
+./20201109_log_slave2/lastlog
+./20201109_log_slave2/wtmp
+./20201109_log_slave1/lastlog
+./20201109_log_slave1/wtmp
+./20201109_log_manager/lastlog
+./20201109_log_manager/wtmp
+./20201109_log_slave2/lastlog
+./20201109_log_slave2/wtmp
