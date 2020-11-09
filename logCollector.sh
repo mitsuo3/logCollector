@@ -9,7 +9,7 @@ Description:
   Log Collect to Hadoop ALL Server 
 
 Options:
-  $1    [copy] or [transfer]
+  $1    [copy] or [archive] or [transfer]
   $2    collect target [YYYYMMDD] or [null] (null : today)
   -f    ffffffffff
 
@@ -18,44 +18,48 @@ exit 1
 }
 
 function create_directory () {
-    local ip=$1
-    local date=$2
-    local host=$3
-    ssh -n ${ip} mkdir /tmp/${date}_log_${host}
+#    local ip=$1
+#    local date=$2
+#    local host=$3
+    ssh -n ${IP_ADDRESS} mkdir /tmp/${GET_DATE}_log_${HOST_NAME}
 }
 
 function find_and_copy_log () {
-    local ip=$1
-    local date=$2
-    local host=$3
-    ssh -n ${ip} "find /var/log -type f -mtime -1 | xargs -I {} cp -p {} /tmp/${date}_log_${host} && sleep 10" &
+#    local ip=$1
+#    local date=$2
+#    local host=$3
+    ssh -n ${IP_ADDRESS} "find /var/log -type f -mtime -1 | xargs -I {} cp -p {} /tmp/${GET_DATE}_log_${HOST_NAME} && sleep 10" &
     return $!
 }
 
 function archive_log () {
-    local ip=$1
-    local date=$2
-    local host=$3
-    ssh -n ${ip} "cd /tmp ; tar cvfz /tmp/${date}_log_${host}.tar.gz ./${date}_log_${host}/* && sleep 10" &
+#    local ip=$1
+#    local date=$2
+#    local host=$3
+    ssh -n ${IP_ADDRESS} "cd /tmp ; tar cvfz /tmp/${GET_DATE}_log_${HOST_NAME}.tar.gz ./${GET_DATE}_log_${HOST_NAME}/* && sleep 10" &
     return $!
 }
 
 function transfer_log () {
-    local ip=$1
-    local date=$2
-    local host=$3
+#    local ip=$1
+#    local date=$2
+#    local host=$3
 
-    scp ${ip}:/tmp/${date}_log_${host}.tar.gz /tmp/logCollect_${date}   
+    scp ${IP_ADDRESS}:/tmp/${GET_DATE}_log_${HOST_NAME}.tar.gz /tmp/logCollect_${GET_DATE}   
     
     ### これはやらない方が良いかもしれない
-    ssh -n ${ip} rm -rf /tmp/${date}_log_${host}
-    ssh -n ${ip} rm -f /tmp/${date}_log_${host}.tar.gz
+    ssh -n ${IP_ADDRESS} rm -rf /tmp/${GET_DATE}_log_${HOST_NAME}
+    ssh -n ${IP_ADDRESS} rm -f /tmp/${GET_DATE}_log_${HOST_NAME}.tar.gz
 }
 
 
 
 # GET COLLECT DATE
+if [ -z "$1" ]; then 
+    usage
+fi
 export COUNT=0
+export i=0
 export JOB_KIND=$1
 if [ -z "$2" ]; then 
     export GET_DATE=`date +%Y%m%d`
@@ -112,9 +116,13 @@ do
     fi 
 done < host_list
 
-wait ${wait_pid[1]} 1> /dev/null 2> /dev/null
-wait ${wait_pid[2]} 1> /dev/null 2> /dev/null
-wait ${wait_pid[3]} 1> /dev/null 2> /dev/null
+for ((i=1; i<${#wait_pid[@]}; i++)); 
+do  
+    wait ${wait_pid[${i}]} 1> /dev/null 2> /dev/null
+done
+
+# wait ${wait_pid[${i}]} 1> /dev/null 2> /dev/null
+
 
 echo "# Comment `date +%Y%m%d_%H%M%S` // SHELL END"
 
