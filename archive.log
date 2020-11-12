@@ -218,3 +218,93 @@ tar: Removing leading `/' from member names
 tar: /tmp/20201112_log_slave2/*: Cannot stat: No such file or directory
 tar: Exiting with failure status due to previous errors
 # Comment 20201112_140753 // SHELL END
+# Comment 20201112_201342 // SHELL START
+# Comment 20201112_201342 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_201342// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_201343// READ LINE =  192.168.56.100
+###########################################
+# Comment 20201112_201343 // TARGET IP =  192.168.56.100
+# Comment 20201112_201343 // TAR START
+.
+###########################################
+# Comment 20201112_201343// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_201343// READ LINE =  # TEST2
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_201343// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_201343 // TARGET IP =  192.168.56.200
+# Comment 20201112_201343 // TAR START
+.
+###########################################
+# Comment 20201112_201343// READ LINE =  192.168.56.201
+###########################################
+# Comment 20201112_201343 // TARGET IP =  192.168.56.201
+# Comment 20201112_201343 // TAR START
+.
+tar: Removing leading `/' from member names
+/tmp/20201112_log_manager/yum.log
+tar: Removing leading `/' from member names
+/tmp/20201112_log_slave1/lastlog
+/tmp/20201112_log_slave1/wtmp
+tar: Removing leading `/' from member names
+tar: /tmp/20201112_log_slave2/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_201353 // SHELL END
+# Comment 20201112_201424 // SHELL START
+# Comment 20201112_201424 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_201424// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_201424// READ LINE =  192.168.56.100
+###########################################
+# Comment 20201112_201424 // TARGET IP =  192.168.56.100
+# Comment 20201112_201424 // TAR START
+.
+###########################################
+# Comment 20201112_201424// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_201424// READ LINE =  # TEST2
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_201424// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_201424 // TARGET IP =  192.168.56.200
+# Comment 20201112_201424 // TAR START
+.
+###########################################
+# Comment 20201112_201424// READ LINE =  192.168.56.201
+###########################################
+# Comment 20201112_201424 // TARGET IP =  192.168.56.201
+# Comment 20201112_201424 // TAR START
+.
+tar: Removing leading `/' from member names
+/tmp/20201112_log_manager/yum.log
+tar: Removing leading `/' from member names
+/tmp/20201112_log_slave1/lastlog
+/tmp/20201112_log_slave1/wtmp
+tar: Removing leading `/' from member names
+tar: /tmp/20201112_log_slave2/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_201434 // SHELL END

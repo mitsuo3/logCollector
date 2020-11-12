@@ -114,9 +114,6 @@ do
     wait ${wait_pid[${i}]} 1> /dev/null 2> /dev/null
 done
 
-# wait ${wait_pid[${i}]} 1> /dev/null 2> /dev/null
-
-
 echo "# Comment `date +%Y%m%d_%H%M%S` // SHELL END"
 
 
