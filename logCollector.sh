@@ -18,32 +18,20 @@ exit 1
 }
 
 function create_directory () {
-#    local ip=$1
-#    local date=$2
-#    local host=$3
     ssh -n ${IP_ADDRESS} mkdir /tmp/${GET_DATE}_log_${HOST_NAME}
 }
 
 function find_and_copy_log () {
-#    local ip=$1
-#    local date=$2
-#    local host=$3
     ssh -n ${IP_ADDRESS} "find /var/log -type f -mtime -1 | xargs -I {} cp -p {} /tmp/${GET_DATE}_log_${HOST_NAME} && sleep 10" &
     return $!
 }
 
 function archive_log () {
-#    local ip=$1
-#    local date=$2
-#    local host=$3
-    ssh -n ${IP_ADDRESS} "cd /tmp ; tar cvfz /tmp/${GET_DATE}_log_${HOST_NAME}.tar.gz ./${GET_DATE}_log_${HOST_NAME}/* && sleep 10" &
+    ssh -n ${IP_ADDRESS} "tar cvfz /tmp/${GET_DATE}_log_${HOST_NAME}.tar.gz /tmp/${GET_DATE}_log_${HOST_NAME}/* && sleep 10" &
     return $!
 }
 
 function transfer_log () {
-#    local ip=$1
-#    local date=$2
-#    local host=$3
 
     scp ${IP_ADDRESS}:/tmp/${GET_DATE}_log_${HOST_NAME}.tar.gz /tmp/logCollect_${GET_DATE}   
     
@@ -83,7 +71,10 @@ do
     echo "###########################################"
     echo "# Comment `date +%Y%m%d_%H%M%S`// READ LINE = " $IP_ADDRESS
     echo "###########################################"
-    if [ $HEADER = "#" ]; then
+    # if [ $HEADER = "#" ]; then
+    if [ -z "$HEADER" ]; then
+        echo "# Skipped becouse Null Line"
+    elif [ "$HEADER" = "#" ]; then
         echo "# Skipped becouse Comment Out"
     else
         echo "# Comment `date +%Y%m%d_%H%M%S` // TARGET IP = " $IP_ADDRESS
@@ -114,6 +105,8 @@ do
             usage
         esac
     fi 
+
+    echo .
 done < host_list
 
 for ((i=1; i<${#wait_pid[@]}; i++)); 

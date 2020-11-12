@@ -1,0 +1,295 @@
+# Comment 20201112_124107 // SHELL START
+# Comment 20201112_124107 // JOB KIND =  copy
+###########################################
+# Comment 20201112_124107// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124107// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124107// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124107// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124107 // TARGET IP =  192.168.56.200
+# Comment 20201112_124107 // CREATE DIRECTORY START
+# Comment 20201112_124107 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_124107// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124107 // SHELL END
+# Comment 20201112_124146 // SHELL START
+# Comment 20201112_124146 // JOB KIND =  copy
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124146// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124146// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124146// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124146// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124146 // TARGET IP =  192.168.56.200
+# Comment 20201112_124147 // CREATE DIRECTORY START
+mkdir: cannot create directory '/tmp/20201112_log_slave1': File exists
+# Comment 20201112_124147 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_124147// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124147 // SHELL END
+# Comment 20201112_124453 // SHELL START
+# Comment 20201112_124453 // JOB KIND =  copy
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124453// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124453// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124453// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124453// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124453 // TARGET IP =  192.168.56.200
+# Comment 20201112_124453 // CREATE DIRECTORY START
+mkdir: cannot create directory '/tmp/20201112_log_slave1': File exists
+# Comment 20201112_124453 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_124453// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124453 // SHELL END
+# Comment 20201112_124622 // SHELL START
+# Comment 20201112_124622 // JOB KIND =  copy
+###########################################
+# Comment 20201112_124622// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124622// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124622// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124622// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124622 // TARGET IP =  192.168.56.200
+# Comment 20201112_124622 // CREATE DIRECTORY START
+# Comment 20201112_124623 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_124623// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124623 // SHELL END
+# Comment 20201112_124821 // SHELL START
+# Comment 20201112_124821 // JOB KIND =  copy
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124821// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124821// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124821// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124821// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124821 // TARGET IP =  192.168.56.200
+# Comment 20201112_124821 // CREATE DIRECTORY START
+# Comment 20201112_124821 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_124821// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124821 // SHELL END
+# Comment 20201112_124934 // SHELL START
+# Comment 20201112_124934 // JOB KIND =  copy
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124934// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124934// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124934// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124934// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124934 // TARGET IP =  192.168.56.200
+# Comment 20201112_124934 // CREATE DIRECTORY START
+# Comment 20201112_124934 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_124934// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124934 // SHELL END
+# Comment 20201112_125627 // SHELL START
+# Comment 20201112_125627 // JOB KIND =  copy
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_125627// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_125627// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_125627// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_125627// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_125627 // TARGET IP =  192.168.56.200
+# Comment 20201112_125627 // CREATE DIRECTORY START
+# Comment 20201112_125627 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_125627// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_125627 // SHELL END
+# Comment 20201112_140649 // SHELL START
+# Comment 20201112_140649 // JOB KIND =  copy
+###########################################
+# Comment 20201112_140649// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140649// READ LINE =  192.168.56.100
+###########################################
+# Comment 20201112_140649 // TARGET IP =  192.168.56.100
+# Comment 20201112_140649 // CREATE DIRECTORY START
+# Comment 20201112_140649 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_140649// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_140649// READ LINE =  # TEST2
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140649// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_140649 // TARGET IP =  192.168.56.200
+# Comment 20201112_140649 // CREATE DIRECTORY START
+# Comment 20201112_140649 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_140650// READ LINE =  192.168.56.201
+###########################################
+# Comment 20201112_140650 // TARGET IP =  192.168.56.201
+# Comment 20201112_140650 // CREATE DIRECTORY START
+# Comment 20201112_140650 // FIND & COPY START
+.
+# Comment 20201112_140700 // SHELL END
+# Comment 20201112_140731 // SHELL START
+# Comment 20201112_140731 // JOB KIND =  copy
+###########################################
+# Comment 20201112_140731// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140731// READ LINE =  192.168.56.100
+###########################################
+# Comment 20201112_140731 // TARGET IP =  192.168.56.100
+# Comment 20201112_140731 // CREATE DIRECTORY START
+# Comment 20201112_140731 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_140731// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_140731// READ LINE =  # TEST2
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140732// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_140732 // TARGET IP =  192.168.56.200
+# Comment 20201112_140732 // CREATE DIRECTORY START
+# Comment 20201112_140732 // FIND & COPY START
+.
+###########################################
+# Comment 20201112_140732// READ LINE =  192.168.56.201
+###########################################
+# Comment 20201112_140732 // TARGET IP =  192.168.56.201
+# Comment 20201112_140732 // CREATE DIRECTORY START
+# Comment 20201112_140732 // FIND & COPY START
+.
+# Comment 20201112_140742 // SHELL END

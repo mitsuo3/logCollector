@@ -24,3 +24,9 @@ ff00::0	ip6-mcastprefix
 ff02::1	ip6-allnodes
 ff02::2	ip6-allrouters
 192.168.56.100	manager
+# Comment 20201112_140731 // logCollector copy Start
+# Comment 20201112_140742 // logCollector copy End
+# Comment 20201112_140742 // logCollector archive Start
+# Comment 20201112_140753 // logCollector archive End
+# Comment 20201112_140753 // logCollector transfer Start
+# Comment 20201112_140755 // logCollector transfer End

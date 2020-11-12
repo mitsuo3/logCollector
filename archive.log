@@ -1,0 +1,220 @@
+# Comment 20201112_124453 // SHELL START
+# Comment 20201112_124453 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124453// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124453// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124453// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124453// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124453 // TARGET IP =  192.168.56.200
+# Comment 20201112_124453 // TAR START
+.
+###########################################
+# Comment 20201112_124453// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124453 // SHELL END
+tar: ./20201112_log_slave1/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_124623 // SHELL START
+# Comment 20201112_124623 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124623// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124623// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124623// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124623// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124623 // TARGET IP =  192.168.56.200
+# Comment 20201112_124623 // TAR START
+.
+###########################################
+# Comment 20201112_124623// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124623 // SHELL END
+tar: ./20201112_log_slave1/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_124821 // SHELL START
+# Comment 20201112_124821 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_124821// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124821// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_124821// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_124821// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_124821 // TARGET IP =  192.168.56.200
+# Comment 20201112_124821 // TAR START
+.
+###########################################
+# Comment 20201112_124821// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_124821 // SHELL END
+tar: Removing leading `/' from member names
+tar: /tmp/20201112_log_slave1/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_125627 // SHELL START
+# Comment 20201112_125627 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_125627// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_125627// READ LINE =  #192.168.56.100
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_125627// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_125627// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_125627 // TARGET IP =  192.168.56.200
+# Comment 20201112_125627 // TAR START
+.
+###########################################
+# Comment 20201112_125627// READ LINE =  #192.168.56.201
+###########################################
+# Skipped becouse Comment Out
+.
+# Comment 20201112_125627 // SHELL END
+tar: /tmp/20201112_log_slave1/lastlog
+/tmp/20201112_log_slave1/wtmp
+Removing leading `/' from member names
+# Comment 20201112_140700 // SHELL START
+# Comment 20201112_140700 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_140700// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140700// READ LINE =  192.168.56.100
+###########################################
+# Comment 20201112_140700 // TARGET IP =  192.168.56.100
+# Comment 20201112_140700 // TAR START
+.
+###########################################
+# Comment 20201112_140700// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_140700// READ LINE =  # TEST2
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140700// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_140700 // TARGET IP =  192.168.56.200
+# Comment 20201112_140700 // TAR START
+.
+###########################################
+# Comment 20201112_140700// READ LINE =  192.168.56.201
+###########################################
+# Comment 20201112_140700 // TARGET IP =  192.168.56.201
+# Comment 20201112_140700 // TAR START
+.
+tar: /tmp/20201112_log_manager/yum.log
+Removing leading `/' from member names
+tar: /tmp/20201112_log_slave1/lastlog
+Removing leading `/' from member names
+/tmp/20201112_log_slave1/wtmp
+tar: Removing leading `/' from member names
+tar: /tmp/20201112_log_slave2/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_140710 // SHELL END
+# Comment 20201112_140742 // SHELL START
+# Comment 20201112_140742 // JOB KIND =  archive
+mkdir: cannot create directory '/tmp/logCollect_20201112': File exists
+###########################################
+# Comment 20201112_140742// READ LINE =  # TEST
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140742// READ LINE =  192.168.56.100
+###########################################
+# Comment 20201112_140742 // TARGET IP =  192.168.56.100
+# Comment 20201112_140742 // TAR START
+.
+###########################################
+# Comment 20201112_140742// READ LINE = 
+###########################################
+# Skipped becouse Null Line
+.
+###########################################
+# Comment 20201112_140742// READ LINE =  # TEST2
+###########################################
+# Skipped becouse Comment Out
+.
+###########################################
+# Comment 20201112_140742// READ LINE =  192.168.56.200
+###########################################
+# Comment 20201112_140742 // TARGET IP =  192.168.56.200
+# Comment 20201112_140742 // TAR START
+.
+###########################################
+# Comment 20201112_140743// READ LINE =  192.168.56.201
+###########################################
+# Comment 20201112_140743 // TARGET IP =  192.168.56.201
+# Comment 20201112_140743 // TAR START
+.
+/tmp/20201112_log_manager/yum.log
+tar: Removing leading `/' from member names
+/tmp/20201112_log_slave1/lastlog
+tar: Removing leading `/' from member names
+/tmp/20201112_log_slave1/wtmp
+tar: Removing leading `/' from member names
+tar: /tmp/20201112_log_slave2/*: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+# Comment 20201112_140753 // SHELL END
